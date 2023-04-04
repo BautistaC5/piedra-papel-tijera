@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(113,17,82,255);
+    color: white;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+
+#startText {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#grupoBotones {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+#grupoBotones > button {
+    background-color: rgb(113,17,82,255);
+}
+
+#grupoBotones > button > img {
+    width: 100%;
+}
+
+#resultado {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#resultado > img {
+    width: 30%;
+}
