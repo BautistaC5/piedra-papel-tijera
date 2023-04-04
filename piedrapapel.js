@@ -42,11 +42,11 @@ function play(userOption) {
             break
 
         case WIN:
-            resultadoText.innerHTML = "WENA PO DEFTSU GANASTE"
+            resultadoText.innerHTML = "GANASTE"
             break
         
         case LOST: 
-        resultadoText.innerHTML = "PERDISTE DEFTSU D0WN"
+        resultadoText.innerHTML = "PERDISTE"
             break
     }
 
