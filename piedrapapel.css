@@ -7,6 +7,10 @@
     color: white;
 }
 
+#containerWeb {
+    padding: 10px;
+}
+
 .title {
     font-size: 35px;
     text-align: center;
@@ -14,7 +18,7 @@
 }
 
 #startText {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     padding: 20px;
 }
@@ -32,7 +36,15 @@
 }
 
 #grupoBotones > button {
-    background-color: rgb(113,17,82,255);
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#grupoBotones > button:hover {
+    background-color: rgb(170, 12, 117);
+    padding: 5px;
 }
 
 #grupoBotones > button > img {
@@ -49,4 +61,14 @@
 
 #resultado > img {
     width: 30%;
+}
+
+.resultadoImg {
+    background-color: rgb(97, 14, 70);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h4 {
+    margin-bottom: 5px;
 }
